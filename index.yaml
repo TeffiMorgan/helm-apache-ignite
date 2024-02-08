@@ -3,11 +3,11 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-02-09T00:06:51.227446408+03:00"
+    created: "2024-02-09T00:10:27.540002027+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
-    digest: f9608cf1c1c9ff0df3673d3f728ef0219ff27b9b027c313d4b139c37c1e2afbe
+    digest: 9bec9342f6fa1b1ac27be6c7865441df024370753a7976d69ac16fe0fda71164
     home: https://ignite.apache.org/
     icon: https://ignite.apache.org/img/logo.svg
     keywords:
@@ -25,4 +25,4 @@ entries:
     urls:
     - https://teffimorgan.github.io/helm-apache-ignite/ignite-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-09T00:06:51.223027103+03:00"
+generated: "2024-02-09T00:10:27.535586869+03:00"
