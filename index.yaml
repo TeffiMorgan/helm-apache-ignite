@@ -1,6 +1,6 @@
 apiVersion: v1
 entries:
-  alpine:
+  ignite:
     - created: 2024-02-08T23:00:00.000000000-00:00
       description: Deploy Apache Ignite
       home: https://ignite.apache.org/
