@@ -3,7 +3,6 @@ entries:
   alpine:
     - created: 2024-02-08T23:00:00.000000000-00:00
       description: Deploy Apache Ignite
-      digest: 99c76e403d752c84ead610644d4b1c2f2b453a74b921f422b9dcb8a7c8b559cd
       home: https://ignite.apache.org/
       name: ignite
       sources:
