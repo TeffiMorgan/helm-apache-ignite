@@ -9,5 +9,5 @@ entries:
       sources:
         - https://ignite.apache.org/
       urls:
-        - https://technosophos.github.io/tscharts/alpine-0.2.0.tgz
+        - https://teffimorgan.github.io/helm-apache-ignite/ignite-0.1.0.tgz
       version: 0.1.0
