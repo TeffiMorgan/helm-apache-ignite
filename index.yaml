@@ -3,11 +3,11 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-05T16:45:26.175984+03:00"
+    created: "2024-04-08T14:47:44.240856+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
-    digest: e5a5e47affb74f591dc444b931a33041da52b51acef084ab64371bed73e9804f
+    digest: 11dcc807230283284bba50603ef0a96da04b06d4fb6c0ffda8614c0df5d7de1b
     home: https://ignite.apache.org/
     icon: https://ignite.apache.org/img/logo.svg
     keywords:
@@ -30,7 +30,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-04-05T16:45:26.175402+03:00"
+    created: "2024-04-08T14:47:44.236346+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -52,4 +52,4 @@ entries:
     urls:
     - ignite-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-05T16:45:26.174128+03:00"
+generated: "2024-04-08T14:47:44.233075+03:00"
