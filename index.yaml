@@ -3,7 +3,7 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-16T14:21:48.456361+03:00"
+    created: "2024-04-16T14:53:32.610049+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +30,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-04-16T14:21:48.455221+03:00"
+    created: "2024-04-16T14:53:32.609306+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -57,7 +57,40 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-16T14:21:48.4955+03:00"
+    created: "2024-04-16T14:53:32.647066+03:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: b1f8b896a17136c21b8a98d05e9b63f8557bcb2de49499cbe20feab727638f8a
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    urls:
+    - redis-15.9.91.tgz
+    version: 15.9.91
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.2.4
+    created: "2024-04-16T14:53:32.642934+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -90,7 +123,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-16T14:21:48.475367+03:00"
+    created: "2024-04-16T14:53:32.625184+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,7 +156,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-04-16T14:21:48.463748+03:00"
+    created: "2024-04-16T14:53:32.616708+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -152,4 +185,4 @@ entries:
     urls:
     - redis-15.3.2.tgz
     version: 15.3.2
-generated: "2024-04-16T14:21:48.452892+03:00"
+generated: "2024-04-16T14:53:32.608358+03:00"
