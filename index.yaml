@@ -3,7 +3,7 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-16T17:13:05.839465+03:00"
+    created: "2024-04-16T17:24:14.562574+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +30,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-04-16T17:13:05.838553+03:00"
+    created: "2024-04-16T17:24:14.561239+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -69,7 +69,49 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-16T17:13:05.887325+03:00"
+    created: "2024-04-16T17:24:14.594521+03:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: dd14cc5cddf79c49c60a7e61e58b66794e5abc12292be69d855996637c709248
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-16.0.2.tgz
+    version: 16.0.2
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r16
+        - name: redis
+          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
+        - name: redis-exporter
+          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
+        - name: redis-sentinel
+          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.2.4
+    created: "2024-04-16T17:24:14.583637+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -98,107 +140,8 @@ entries:
   - annotations:
       category: Database
     apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-04-16T17:13:05.880159+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    description: Open source, advanced key-value store. It is often referred to as
-      a data structure server since keys can contain strings, hashes, lists, sets
-      and sorted sets.
-    digest: 6026b6a64f1564bab1b4cee6bb729ea37d12d4287a76d85e33df04f43f221923
-    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    - email: cedric@desaintmartin.fr
-      name: desaintmartin
-    name: redis
-    sources:
-    - https://github.com/bitnami/bitnami-docker-redis
-    - http://redis.io/
-    urls:
-    - redis-15.9.91.tgz
-    version: 15.9.91
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-04-16T17:13:05.873178+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    description: Open source, advanced key-value store. It is often referred to as
-      a data structure server since keys can contain strings, hashes, lists, sets
-      and sorted sets.
-    digest: 2f675b7f11242340b907d694a96daaaf928230b821eeda4a5350251e0c0f8e2c
-    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    - email: cedric@desaintmartin.fr
-      name: desaintmartin
-    name: redis
-    sources:
-    - https://github.com/bitnami/bitnami-docker-redis
-    - http://redis.io/
-    urls:
-    - redis-15.9.90.tgz
-    version: 15.9.90
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-04-16T17:13:05.85324+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    description: Open source, advanced key-value store. It is often referred to as
-      a data structure server since keys can contain strings, hashes, lists, sets
-      and sorted sets.
-    digest: 7b1069cc0e44c31e1d4661499d9bb609e99b10bdac92777be8e42dceac02cdd4
-    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    - email: cedric@desaintmartin.fr
-      name: desaintmartin
-    name: redis
-    sources:
-    - https://github.com/bitnami/bitnami-docker-redis
-    - http://redis.io/
-    urls:
-    - redis-15.9.9.tgz
-    version: 15.9.9
-  - annotations:
-      category: Database
-    apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-04-16T17:13:05.843932+03:00"
+    created: "2024-04-16T17:24:14.569291+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -227,4 +170,4 @@ entries:
     urls:
     - redis-15.3.2.tgz
     version: 15.3.2
-generated: "2024-04-16T17:13:05.837482+03:00"
+generated: "2024-04-16T17:24:14.559558+03:00"
