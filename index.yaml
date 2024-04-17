@@ -3,7 +3,7 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-17T10:23:41.082769+03:00"
+    created: "2024-04-17T10:25:43.832208+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +30,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-04-17T10:23:41.081755+03:00"
+    created: "2024-04-17T10:25:43.830621+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -69,7 +69,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-17T10:23:41.156101+03:00"
+    created: "2024-04-17T10:25:43.918698+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -79,7 +79,7 @@ entries:
     description: Redis(R) is an open source, advanced key-value store. It is often
       referred to as a data structure server since keys can contain strings, hashes,
       lists, sets and sorted sets.
-    digest: c164978ba0b6493801ed3751177c3e570c494e6daf7e57d4e663969fedd61768
+    digest: 957e463c1d52197d441e5d9f2871d697ca44f68eaef587555f799c6fa4c790bb
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
@@ -111,7 +111,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-17T10:23:41.13443+03:00"
+    created: "2024-04-17T10:25:43.888559+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -153,7 +153,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-17T10:23:41.106411+03:00"
+    created: "2024-04-17T10:25:43.870091+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -195,7 +195,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-17T10:23:41.097261+03:00"
+    created: "2024-04-17T10:25:43.855829+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -225,7 +225,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-04-17T10:23:41.088397+03:00"
+    created: "2024-04-17T10:25:43.84121+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -254,4 +254,4 @@ entries:
     urls:
     - redis-15.3.2.tgz
     version: 15.3.2
-generated: "2024-04-17T10:23:41.079387+03:00"
+generated: "2024-04-17T10:25:43.827093+03:00"
