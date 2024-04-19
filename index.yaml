@@ -3,11 +3,11 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-19T16:00:34.629718+03:00"
+    created: "2024-04-19T16:06:01.510644+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
-    digest: d580a9a22c0b69c2e725fc75eae055007d10928de3d4c12a4f3b41ffc32bf352
+    digest: 6e7fc42e87b057c6cda44999c88341136425b3bcde4a927ceb234b31e5d5ab6a
     home: https://ignite.apache.org/
     icon: https://ignite.apache.org/img/logo.svg
     keywords:
@@ -30,7 +30,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-19T16:00:34.628781+03:00"
+    created: "2024-04-19T16:06:01.509451+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -57,7 +57,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-04-19T16:00:34.626811+03:00"
+    created: "2024-04-19T16:06:01.506864+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -96,7 +96,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:00:34.672792+03:00"
+    created: "2024-04-19T16:06:01.553015+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -138,7 +138,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:00:34.729279+03:00"
+    created: "2024-04-19T16:06:01.614411+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -180,7 +180,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:00:34.711854+03:00"
+    created: "2024-04-19T16:06:01.591321+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -222,7 +222,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:00:34.695845+03:00"
+    created: "2024-04-19T16:06:01.573828+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -264,7 +264,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:00:34.6873+03:00"
+    created: "2024-04-19T16:06:01.566007+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -306,7 +306,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:00:34.679757+03:00"
+    created: "2024-04-19T16:06:01.559375+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -336,7 +336,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-04-19T16:00:34.635309+03:00"
+    created: "2024-04-19T16:06:01.515445+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -365,4 +365,4 @@ entries:
     urls:
     - redis-15.3.2.tgz
     version: 15.3.2
-generated: "2024-04-19T16:00:34.624728+03:00"
+generated: "2024-04-19T16:06:01.505849+03:00"
