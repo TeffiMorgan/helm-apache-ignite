@@ -3,7 +3,7 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-19T16:29:50.041768+03:00"
+    created: "2024-05-06T13:35:25.395149+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +30,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-04-19T16:29:50.040499+03:00"
+    created: "2024-05-06T13:35:25.394024+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -57,7 +57,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-04-19T16:29:50.039375+03:00"
+    created: "2024-05-06T13:35:25.393008+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -96,7 +96,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:29:50.094777+03:00"
+    created: "2024-05-06T13:35:25.438444+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -138,7 +138,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:29:50.154592+03:00"
+    created: "2024-05-06T13:35:25.491913+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -180,7 +180,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:29:50.133945+03:00"
+    created: "2024-05-06T13:35:25.474787+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -222,7 +222,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:29:50.11711+03:00"
+    created: "2024-05-06T13:35:25.460161+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -264,7 +264,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:29:50.108573+03:00"
+    created: "2024-05-06T13:35:25.452395+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -306,7 +306,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-04-19T16:29:50.101221+03:00"
+    created: "2024-05-06T13:35:25.445034+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -336,7 +336,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-04-19T16:29:50.047342+03:00"
+    created: "2024-05-06T13:35:25.400244+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -365,4 +365,31 @@ entries:
     urls:
     - redis-15.3.2.tgz
     version: 15.3.2
-generated: "2024-04-19T16:29:50.036024+03:00"
+  redis-sberdevices:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 7.2.4
+    created: "2024-05-06T13:35:25.49356+03:00"
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: e0adf3a82498a166cc2d8948febe868beac9c76c886aeea7ef9532d6a50d4748
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: eailyukhin@sberbank.ru
+      name: Egor Ilyukhin
+    - email: nvyacsmirnov@sberbank.ru
+      name: Nikita Smirnov
+    name: redis-sberdevices
+    sources:
+    - https://redis.io/
+    urls:
+    - redis-sberdevices-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-05-06T13:35:25.391787+03:00"
