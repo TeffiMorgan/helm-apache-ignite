@@ -3,7 +3,7 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-13T16:55:02.144284+03:00"
+    created: "2024-05-13T17:12:05.731008+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +30,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-13T16:55:02.142183+03:00"
+    created: "2024-05-13T17:12:05.728904+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -57,7 +57,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-05-13T16:55:02.140045+03:00"
+    created: "2024-05-13T17:12:05.727247+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -96,7 +96,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.186486+03:00"
+    created: "2024-05-13T17:12:05.779738+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -138,7 +138,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.246019+03:00"
+    created: "2024-05-13T17:12:05.84836+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -180,7 +180,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.226569+03:00"
+    created: "2024-05-13T17:12:05.826846+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -222,7 +222,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.210578+03:00"
+    created: "2024-05-13T17:12:05.807897+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -264,7 +264,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.201607+03:00"
+    created: "2024-05-13T17:12:05.796647+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -306,7 +306,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.193653+03:00"
+    created: "2024-05-13T17:12:05.787362+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -336,7 +336,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-05-13T16:55:02.149744+03:00"
+    created: "2024-05-13T17:12:05.736448+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -370,11 +370,11 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.25014+03:00"
+    created: "2024-05-13T17:12:05.853425+03:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 4410cf8d5e2674ddcdbdfb895ecf3705697ef35849ef6c08ee965e164054b7ba
+    digest: 4020ced679dac2163c944516f29370e59bd1d2e95a6e5b55d79e365a3b480e22
     home: https://github.com/bitnami/charts/tree/master/bitnami/redis
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
@@ -396,7 +396,7 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 7.2.4
-    created: "2024-05-13T16:55:02.248055+03:00"
+    created: "2024-05-13T17:12:05.850971+03:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -418,4 +418,4 @@ entries:
     urls:
     - redis-sberdevices-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-13T16:55:02.138824+03:00"
+generated: "2024-05-13T17:12:05.725986+03:00"
