@@ -3,7 +3,34 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-14T15:23:20.913776+03:00"
+    created: "2024-05-21T11:17:44.860133+03:00"
+    description: Apache Ignite is an open-source distributed database, caching and
+      processing platform designed to store and compute on large volumes of data across
+      a cluster of nodes.
+    digest: c9f9a015ca6dfe8e80c794c3a57a1801dfb52c182f7466a2e147d55f27d5a52d
+    home: https://ignite.apache.org/
+    icon: https://ignite.apache.org/img/logo.svg
+    keywords:
+    - java
+    - datagrid
+    - caching
+    - jvm
+    - sql
+    - key-value
+    - nosql
+    - distributed
+    maintainers:
+    - email: eailyukhin@sberbank.ru
+      name: Egor Ilyukhin
+    name: ignite
+    sources:
+    - https://github.com/apache/ignite
+    urls:
+    - ignite-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    appVersion: 2.16.0
+    created: "2024-05-21T11:17:44.859153+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +57,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-14T15:23:20.911915+03:00"
+    created: "2024-05-21T11:17:44.857101+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -57,7 +84,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-14T15:23:20.909558+03:00"
+    created: "2024-05-21T11:17:44.854806+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -84,7 +111,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-05-14T15:23:20.906256+03:00"
+    created: "2024-05-21T11:17:44.852716+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -123,7 +150,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:20.969179+03:00"
+    created: "2024-05-21T11:17:44.905388+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -165,7 +192,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:21.05274+03:00"
+    created: "2024-05-21T11:17:44.977791+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -207,7 +234,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:21.025474+03:00"
+    created: "2024-05-21T11:17:44.954729+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -249,7 +276,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:21.004538+03:00"
+    created: "2024-05-21T11:17:44.935785+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -291,7 +318,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:20.991442+03:00"
+    created: "2024-05-21T11:17:44.924437+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -333,7 +360,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:20.980486+03:00"
+    created: "2024-05-21T11:17:44.91412+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -363,7 +390,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.5
-    created: "2024-05-14T15:23:20.920111+03:00"
+    created: "2024-05-21T11:17:44.865814+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -397,7 +424,7 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:21.069931+03:00"
+    created: "2024-05-21T11:17:44.986198+03:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -423,7 +450,7 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 7.2.4
-    created: "2024-05-14T15:23:21.064067+03:00"
+    created: "2024-05-21T11:17:44.980988+03:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -445,4 +472,4 @@ entries:
     urls:
     - redis-sberdevices-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-14T15:23:20.904075+03:00"
+generated: "2024-05-21T11:17:44.850587+03:00"
