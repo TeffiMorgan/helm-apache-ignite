@@ -3,7 +3,7 @@ entries:
   ignite:
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-21T11:43:45.241723+03:00"
+    created: "2024-05-21T13:29:54.005861+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -30,7 +30,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-21T11:43:45.2405+03:00"
+    created: "2024-05-21T13:29:54.004056+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -57,7 +57,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-21T11:43:45.238711+03:00"
+    created: "2024-05-21T13:29:54.00262+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -84,7 +84,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2024-05-21T11:43:45.236305+03:00"
+    created: "2024-05-21T13:29:54.00103+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -111,7 +111,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-05-21T11:43:45.234261+03:00"
+    created: "2024-05-21T13:29:53.999684+03:00"
     description: Apache Ignite is an open-source distributed database, caching and
       processing platform designed to store and compute on large volumes of data across
       a cluster of nodes.
@@ -133,298 +133,12 @@ entries:
     urls:
     - ignite-0.1.0.tgz
     version: 0.1.0
-  redis:
-  - annotations:
-      category: Database
-      images: |
-        - name: kubectl
-          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: redis
-          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
-        - name: redis-exporter
-          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
-        - name: redis-sentinel
-          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.289307+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: bad7707f6df295f72d0f5438e86a9daa73f4776accaf328839d589222ffa284b
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/redis
-    urls:
-    - redis-16.0.10.tgz
-    version: 16.0.10
-  - annotations:
-      category: Database
-      images: |
-        - name: kubectl
-          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: redis
-          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
-        - name: redis-exporter
-          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
-        - name: redis-sentinel
-          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.356501+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: 6e32bdfcae313fe1d542ed7804d00870ee63d733e34bc2203909f4082717afa5
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/redis
-    urls:
-    - redis-16.0.9.tgz
-    version: 16.0.9
-  - annotations:
-      category: Database
-      images: |
-        - name: kubectl
-          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: redis
-          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
-        - name: redis-exporter
-          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
-        - name: redis-sentinel
-          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.335757+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: 957e463c1d52197d441e5d9f2871d697ca44f68eaef587555f799c6fa4c790bb
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/redis
-    urls:
-    - redis-16.0.8.tgz
-    version: 16.0.8
-  - annotations:
-      category: Database
-      images: |
-        - name: kubectl
-          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: redis
-          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
-        - name: redis-exporter
-          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
-        - name: redis-sentinel
-          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.317325+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: 70f83d7b220226aaa970bee469c1c38c6648eb6c7089771761de540e2f8fea90
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/redis
-    urls:
-    - redis-16.0.7.tgz
-    version: 16.0.7
-  - annotations:
-      category: Database
-      images: |
-        - name: kubectl
-          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: redis
-          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
-        - name: redis-exporter
-          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
-        - name: redis-sentinel
-          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.306012+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: 02f826423839626a129acd2d1fc7c5267476f5e41aaaaf32ed832903299f08ee
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/redis
-    urls:
-    - redis-16.0.6.tgz
-    version: 16.0.6
-  - annotations:
-      category: Database
-      images: |
-        - name: kubectl
-          image: docker.io/bitnami/kubectl:1.29.2-debian-12-r3
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: redis
-          image: docker.io/bitnami/redis:7.2.4-debian-12-r9
-        - name: redis-exporter
-          image: docker.io/bitnami/redis-exporter:1.58.0-debian-12-r4
-        - name: redis-sentinel
-          image: docker.io/bitnami/redis-sentinel:7.2.4-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.29714+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: 27b135ba5ad2e426e68a9ee5cb0b3f3fc4544a4ba4fe283163ac08e9cd9ddc9e
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/redis
-    urls:
-    - redis-16.0.5.tgz
-    version: 16.0.5
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 6.2.5
-    created: "2024-05-21T11:43:45.247922+03:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    description: Open source, advanced key-value store. It is often referred to as
-      a data structure server since keys can contain strings, hashes, lists, sets
-      and sorted sets.
-    digest: 43aee98968603e801e43c0af02810f9437e2ee1633b8a6b418f2959f62baf7cd
-    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    - email: cedric@desaintmartin.fr
-      name: desaintmartin
-    name: redis
-    sources:
-    - https://github.com/bitnami/bitnami-docker-redis
-    - http://redis.io/
-    urls:
-    - redis-15.3.2.tgz
-    version: 15.3.2
   redis-sberdevices:
   - annotations:
       category: Database
     apiVersion: v1
     appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.36289+03:00"
+    created: "2024-05-21T13:29:54.012377+03:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -450,7 +164,7 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 7.2.4
-    created: "2024-05-21T11:43:45.358495+03:00"
+    created: "2024-05-21T13:29:54.007679+03:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -472,4 +186,4 @@ entries:
     urls:
     - redis-sberdevices-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-21T11:43:45.232749+03:00"
+generated: "2024-05-21T13:29:53.99866+03:00"
